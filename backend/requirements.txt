@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+biopython
+python-dotenv
+pydantic
+groq
+certifi
+reportlab
