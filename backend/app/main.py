@@ -21,7 +21,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        os.getenv("CORS_ORIGINS", "http://localhost:5173"),
+        "http://localhost:5173",
+        "https://bioseq-analyzer.vercel.app",
+        "*",
     ],
     allow_credentials=True,
     allow_methods=["*"],

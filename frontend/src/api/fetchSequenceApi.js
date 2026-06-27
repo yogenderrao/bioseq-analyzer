@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8000/api/v1/fetch-sequence'
+const API_URL = 'https://bioseq-analyzer-production.up.railway.app/api/v1/fetch-sequence'
 
 export async function fetchByAccession(accession) {
   const url = `${API_URL}?accession=${encodeURIComponent(accession)}`

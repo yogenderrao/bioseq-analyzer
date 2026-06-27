@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8000/api/v1/explain'
+const API_URL = 'https://bioseq-analyzer-production.up.railway.app/api/v1/explain'
 
 export async function explainAnalysis(analysisResult) {
   const response = await fetch(API_URL, {
